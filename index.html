@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <!--<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+        <meta name="msapplication-tap-highlight" content="no">
+        <script type="text/javascript" src="js/phaser.js"></script>-->
+        <meta charset="UTF-8">
+        <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="js/createjs-2015.11.26.min.js"></script>
+        <script type="text/javascript" src="js/dat.gui.min.js"></script>
+        <style type="text/css">
+            body {
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+                background-color: #ff8500;
+            }
+            #gameCanvas {
+                width: 100%;
+                margin: 0px;
+                padding: 0px;
+                position: fixed; 
+            }
+            canvas {
+                image-rendering: optimizeSpeed;
+                image-rendering:-o-crisp-edges;
+                image-rendering:-webkit-optimize-contrast;
+                -ms-interpolation-mode: nearest-neighbor;
+                -ms-touch-action: none;
+            }
+        </style>
+    </head>
+    <body ondragstart="return false;" ondrop="return false;">
+        <canvas id="gameCanvas"  width="1500" height="640"></canvas>
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
